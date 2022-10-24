@@ -10,6 +10,24 @@ background-color: white;
     text-decoration: none;
     color: black;
 }
+.tabela_referencia{
+    color: black;
+    border-radius: 20px;
+    position: fixed;
+    text-align: center;
+    width: 200px;
+    font-size: 13px;
+    border-radius: 20%;
+    left: 15px;
+    top: 345px;
+    border-collapse: collapse;
+}
+td{
+    border: solid black;
+    border-radius: 20%;  
+    padding: 1.7%;  
+}
+
 .seta{
     text-decoration: none;
     color: black;
@@ -41,6 +59,7 @@ background-color: white;
     position:relative;
     box-shadow:0 1px 2px 0 rgba(0,0,0,0.1);
     transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    top: -60px;
 }
 .ellement:after{
     content:"";
@@ -109,4 +128,53 @@ background-color: white;
 }
 .outros_metais{
     background-color:cornflowerblue;
+}
+tr.referencia_ametais{
+    background-color: #a1d344;
+}
+
+tr.referencia_gasesNobres{
+    background-color: #3d9ee3;
+}
+
+tr.referencia_alcalinos{
+    background-color: #f1b200;
+}
+
+tr.referencia_alcalinos_terrosos{
+    background-color: #eada00;
+}
+
+tr.referencia_semimetais{
+    background-color: #4db6ac;
+}
+
+tr.referencia_halogenios{
+    background-color: #70cbeb;
+}
+
+tr.referencia_outros{
+    background-color:cornflowerblue;
+}
+
+tr.referencia_transicao{
+    background-color: #eb8e8e;
+}
+
+tr.referencia_lantanideos{
+    background-color: #90e3e9;
+}
+
+tr.referencia_actinidios{
+    background-color: #dcadd6;
+}
+p.paragrafo1{
+    text-align-last: auto;
+    width: 600px;
+    font-family: sans-serif;
+    font-size: 25px;
+    text-indent: 20px;
+}
+div.paragrafo{
+    margin-left: 500px;
 }
