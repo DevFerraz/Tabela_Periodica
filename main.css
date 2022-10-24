@@ -10,6 +10,17 @@ background-color: white;
     text-decoration: none;
     color: black;
 }
+.seta{
+    text-decoration: none;
+    color: black;
+    background-color: wheat;
+    padding: 15px;
+    border-radius: 20px;
+    position: fixed;
+    right: 15px;
+    bottom: 20px;
+    font-size: 25px;
+}
 .vazio{
     width: 12%;
     margin: 0.5%;
