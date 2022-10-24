@@ -10,6 +10,11 @@ background-color: white;
     text-decoration: none;
     color: black;
 }
+h2{
+    text-align: justify;
+    font-size: 30px;
+    text-indent: 60px;
+}
 .tabela_referencia{
     color: black;
     border-radius: 20px;
