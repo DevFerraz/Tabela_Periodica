@@ -18,14 +18,13 @@ h2.titulo1{
 .tabela_referencia{
     color: black;
     border-radius: 20px;
-    position: fixed;
+    position:relative;
     text-align: center;
     width: auto;
     font-size: 13px;
     border-radius: 20%;
-    left: 15px;
-    top: 345px;
-    border-collapse: collapse;
+    top: -1300px;   /*Está setado em -1300px, porém, no mozilla, não interpreta corretamente. */
+    width:fit-content;
 }
 td{
     border: solid black;
@@ -134,44 +133,64 @@ td{
 .outros_metais{
     background-color:cornflowerblue;
 }
-tr.referencia_ametais{
+div.referencia_ametais{
     background-color: #a1d344;
+    padding: 2%;
+    border-radius: 10px;
 }
 
-tr.referencia_gasesNobres{
+div.referencia_gasesNobres{
     background-color: #3d9ee3;
+    padding: 2%;
+    border-radius: 10px;
 }
 
-tr.referencia_alcalinos{
+div.referencia_alcalinos{
     background-color: #f1b200;
+    padding: 2%;
+    border-radius: 10px;
 }
 
-tr.referencia_alcalinos_terrosos{
+div.referencia_alcalinos_terrosos{
     background-color: #eada00;
+    padding: 2%;
+    border-radius: 10px;
 }
 
-tr.referencia_semimetais{
+div.referencia_semimetais{
     background-color: #4db6ac;
+    padding: 2%;
+    border-radius: 10px;
 }
 
-tr.referencia_halogenios{
+div.referencia_halogenios{
     background-color: #70cbeb;
+    padding: 2%;
+    border-radius: 10px;
 }
 
-tr.referencia_outros{
+div.referencia_outros{
     background-color:cornflowerblue;
+    padding: 2%;
+    border-radius: 10px;
 }
 
-tr.referencia_transicao{
+div.referencia_transicao{
     background-color: #eb8e8e;
+    padding: 2%;
+    border-radius: 10px;
 }
 
-tr.referencia_lantanideos{
+div.referencia_lantanideos{
     background-color: #90e3e9;
+    padding: 2%;
+    border-radius: 10px;
 }
 
-tr.referencia_actinidios{
+div.referencia_actinidios{
     background-color: #dcadd6;
+    padding: 2%;
+    border-radius: 10px;
 }
 p.paragrafo1{
     text-align-last: auto;
@@ -182,4 +201,5 @@ p.paragrafo1{
 }
 div.paragrafo{
     margin-left: 500px;
+    width:max-content
 }
