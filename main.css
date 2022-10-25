@@ -9,6 +9,7 @@ background-color: white;
     display: flex;
     text-decoration: none;
     color: black;
+    font-weight: bold;
 }
 h2.titulo1{
     text-align: justify;
@@ -23,7 +24,7 @@ h2.titulo1{
     width: auto;
     font-size: 13px;
     border-radius: 20%;
-    top: -1300px;   /*Está setado em -1300px, porém, no mozilla, não interpreta corretamente. */
+    top: -1260px;   /*Está setado em -1260px, porém, no mozilla, não interpreta corretamente. */
     width:fit-content;
 }
 td{
@@ -137,60 +138,70 @@ div.referencia_ametais{
     background-color: #a1d344;
     padding: 2%;
     border-radius: 10px;
+    font-weight: bold;
 }
 
 div.referencia_gasesNobres{
     background-color: #3d9ee3;
     padding: 2%;
     border-radius: 10px;
+    font-weight: bold;
 }
 
 div.referencia_alcalinos{
     background-color: #f1b200;
     padding: 2%;
     border-radius: 10px;
+    font-weight: bold;
 }
 
 div.referencia_alcalinos_terrosos{
     background-color: #eada00;
     padding: 2%;
     border-radius: 10px;
+    font-weight: bold;
 }
 
 div.referencia_semimetais{
     background-color: #4db6ac;
     padding: 2%;
     border-radius: 10px;
+    font-weight: bold;
 }
 
 div.referencia_halogenios{
     background-color: #70cbeb;
     padding: 2%;
     border-radius: 10px;
+    font-weight: bold;
 }
 
 div.referencia_outros{
     background-color:cornflowerblue;
     padding: 2%;
     border-radius: 10px;
+    font-weight: bold;
 }
 
 div.referencia_transicao{
     background-color: #eb8e8e;
     padding: 2%;
     border-radius: 10px;
+    font-weight: bold;
 }
 
 div.referencia_lantanideos{
     background-color: #90e3e9;
     padding: 2%;
     border-radius: 10px;
+    font-weight: bold;
 }
 
 div.referencia_actinidios{
     background-color: #dcadd6;
     padding: 2%;
     border-radius: 10px;
+    font-weight: bold;
 }
 p.paragrafo1{
     text-align-last: auto;
