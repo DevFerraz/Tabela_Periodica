@@ -2,14 +2,14 @@
 font-family: monospace;
 background-color: white;
 }
-#divbranca{
-    height: 350px;
-}
 .row{
     display: flex;
     text-decoration: none;
     color: black;
     font-weight: bold;
+}
+.pa{
+    font-size: 8px;
 }
 h2.titulo1{
     text-align: justify;
@@ -21,18 +21,12 @@ h2.titulo1{
     border-radius: 20px;
     position:relative;
     text-align: center;
-    width: auto;
-    font-size: 13px;
+    height: 1px;
+    font-size: 8px;
     border-radius: 20%;
-    top: -1260px;   /*Está setado em -1260px, porém, no mozilla, não interpreta corretamente. */
-    width:fit-content;
+    top: -1180px;   /*Está setado em -1180px, porém, no mozilla, não interpreta corretamente. */
+    display: flex;
 }
-td{
-    border: solid black;
-    border-radius: 20%;  
-    padding: 1.7%;  
-}
-
 .seta{
     text-decoration: none;
     color: black;
@@ -48,7 +42,6 @@ td{
     width: 12%;
     margin: 0.5%;
     padding: 0.5%;
-    text-align: center;
     border-radius: 10px;
 }
 .ellement a{
@@ -213,4 +206,5 @@ p.paragrafo1{
 div.paragrafo{
     margin-left: 500px;
     width:max-content
+    
 }
