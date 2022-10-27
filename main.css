@@ -1,6 +1,7 @@
 #container{
-font-family: monospace;
-background-color: white;
+    font-family: monospace;
+    background-color: white;
+    width: auto;
 }
 .row{
     display: flex;
@@ -24,12 +25,11 @@ div {
     color: black;
     border-radius: 20px;
     text-align:center;
-    margin: 20px;       
+    margin: 65px;  
+    margin-top: 5px;     
     display: flex;
     justify-content:center;  
-    align-items: center
-    
-      
+    align-items: center; 
 }
 .Paragrafo {
     width: 100vw;
@@ -37,9 +37,7 @@ div {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 20px;
-    margin: 300px;
-    
+    margin: 350px; 
 }
 .seta{
     text-decoration: none;
